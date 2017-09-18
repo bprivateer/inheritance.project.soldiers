@@ -7,19 +7,12 @@ interface AquaticExplosions extends AquaticCombat{
 }
 
 class Bomb {
-    String bomb;
 
     public Bomb() {
     }
 
-    public Bomb(String bomb) {
-        this.bomb = bomb;
-    }
-
     @Override
     public String toString() {
-        return "Bomb{" +
-                "bomb='" + bomb + '\'' +
-                '}';
+        return "I'm da bomb, yo!";
     }
 }
