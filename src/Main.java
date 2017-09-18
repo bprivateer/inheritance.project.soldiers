@@ -4,6 +4,7 @@ public class Main {
         Marine marine = new Marine();
         NavySoldier sailor = new NavySoldier();
         ArtillerySoldier artillerySoldier = new ArtillerySoldier();
+        GunSoldiers gunner = new GunSoldiers();
 
         armySoldier.speak();
         armySoldier.kick();
@@ -43,8 +44,15 @@ public class Main {
         System.out.println(sailor.speak());
         System.out.println(sailor.aquaticCombat());
 
+        System.out.println();
+        artillerySoldier.newBomb();
+        System.out.println(artillerySoldier.newBomb());
 
-
+        gunner.guns();
+        gunner.speak();
+        System.out.println();
+        System.out.println(gunner.speak());
+        System.out.println(gunner.guns());
 
     }
 

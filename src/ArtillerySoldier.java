@@ -27,5 +27,6 @@ class ArtillerySoldier extends Soldier implements AquaticExplosions{
     public Bomb newBomb() {
         Bomb theBomb = new Bomb();
         return theBomb;
+
     }
 }
